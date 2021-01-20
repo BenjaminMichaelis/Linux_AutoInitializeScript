@@ -35,6 +35,8 @@ To be able to compile C programs into 32-bit code in 64-bit Ubuntu Linux run
 command (for CPTS-360) (command: cc -m32 'filename')
     sudo apt-get install gcc-multilib
 
+Install xclip to copy SSH Keys
+    
 
 Not working yet/ TODO
     Install Snapd: manages and maintains packages (needed for snapd commands)
