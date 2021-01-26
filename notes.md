@@ -1,4 +1,18 @@
 # Notes:
+- [Table of Contents:](#notes)
+  - [Script Creation Notes](#script-creation-notes)
+    - [To convert script to unix if it is not running properly](#to-convert-script-to-unix-if-it-is-not-running-properly)
+    - [Single Line Commants](#single-line-commants)
+    - [Apt commands](#apt-commands)
+  - [Script Commands Details](#script-commands-details)
+    - [Start:](#start)
+    - [C/C++ Compiling:](#cc-compiling)
+    - [Git:](#git)
+    - [Debugger:](#debugger)
+    - [To compile C programs into 32-bit code in 64-bit Ubuntu Linux: (for CPTS-360) (command: cc -m32 'filename')](#to-compile-c-programs-into-32-bit-code-in-64-bit-ubuntu-linux-for-cpts-360-command-cc--m32-filename)
+    - [Potential helpful software for CPTS 360?](#potential-helpful-software-for-cpts-360)
+    - [Install xclip to copy SSH Keys](#install-xclip-to-copy-ssh-keys)
+    - [Not working yet/ #TODO](#not-working-yet-todo)
 ## Script Creation Notes
 ### To convert script to unix if it is not running properly
 This is a problem when you write script in windows with line endings, etc. (more info: https://askubuntu.com/questions/979213/cant-apt-get-from-shell-script)<br>
@@ -24,7 +38,7 @@ sudo apt-get update && sudo apt-get dist-upgrade
 `-qq` suppresses output unless an error occurs
 `--yes` answers the prompt 'Do you want to continue? [Y/n]'
 
-## Script Command Details
+## Script Commands Details
 ### Start:
 To update the distribution:
 ```
