@@ -18,11 +18,11 @@
 This is a problem when you write script in windows with line endings, etc. (more info: https://askubuntu.com/questions/979213/cant-apt-get-from-shell-script)<br>
 Run following command in terminal
 ```
-sed -i -e 's/\r$//' autoinstallscript
+sed -i -e 's/\r$//' initializelinux
 ```
 Then try
 ```
-./autoinstallscript
+./initializelinux
 ```
 ### Single Line Commants
 You can put multiple commands in one line like:
