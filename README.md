@@ -1,7 +1,8 @@
-## AutoInitialize WSL Ubuntu
+## AutoInitialize Linux
 
 # Purpose
-To allow for a simple and fast install of all needed tools for ubuntu on WSL and initialize bash scripts.
+To allow for a simple and fast install of all needed tools for Linux and initialize bash scripts.
+This has been mainly tested on WSL Ubuntu.
 
 # Running
 1. Clone repo to local linux machine (`run git clone https://github.com/BenjaminMichaelis/Linux_AutoInitializeScript.git`)<br>
