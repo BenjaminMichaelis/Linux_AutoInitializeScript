@@ -10,6 +10,7 @@ start:
     update latest versions of system packages
         sudo apt-get dist-upgrade
 
+To install stuff from internet and have certificates (two commands)
     sudo apt-get install wget ca-certificates 
 
 https://docs.microsoft.com/en-us/visualstudio/liveshare/reference/linux#install-linux-prerequisites
@@ -31,9 +32,11 @@ Debugger:
     sudo apt-get install build-essential 
     sudo apt-get install gdb
 
-To be able to compile C programs into 32-bit code in 64-bit Ubuntu Linux run
-command (for CPTS-360) (command: cc -m32 'filename')
+To compile C programs into 32-bit code in 64-bit Ubuntu Linux: (for CPTS-360) (command: cc -m32 'filename')
     sudo apt-get install gcc-multilib
+    
+CPTS 360 potential helpful software?
+    sudo apt install emacs
 
 Install xclip to copy SSH Keys
     
