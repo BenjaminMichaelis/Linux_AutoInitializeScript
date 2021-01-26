@@ -1,16 +1,14 @@
-# start:
-#    update the distribution
-        sudo apt-get update
-#    update latest versions of system packages
-        sudo apt-get dist-upgrade
+sudo apt-get update
+sudo apt-get dist-upgrade --yes
 
 #prep for next install
-    sudo apt-get install wget ca-certificates 
+    sudo apt-get install wget ca-certificates
+
 
 # reference: https://docs.microsoft.com/en-us/visualstudio/liveshare/reference/linux#install-linux-prerequisites
 
     wget -O ~/vsls-reqs https://aka.ms/vsls-linux-prereq-script && chmod +x ~/vsls-reqs && ~/vsls-reqs
-    sudo apt install libssl1.0.0 libkrb5-3 zlib1g libicu[0-9][0-9] gnome-keyring libsecret-1-0 desktop-file-utils x11-utils
+    sudo apt install libssl1.0.0 libkrb5-3 zlib1g libicu[0-9][0-9] gnome-keyring libsecret-1-0 desktop-file-utils x11-utils --yes
 
 # C/C++ Compiling:
 
@@ -19,31 +17,31 @@
 
 # Git:
     sudo apt-get install git
-    
+
 # Debugger:
     sudo apt-get install ddd
-    sudo apt-get install build-essential 
+    sudo apt-get install build-essential
     sudo apt-get install gdb
+
 
 # To compile C programs into 32-bit code in 64-bit Ubuntu Linux: (for CPTS-360) (command: cc -m32 'filename')
 #    sudo apt-get install gcc-multilib
-    
+
 # CPTS 360 potential helpful software?
 #    sudo apt install emacs
 
 # Install xclip to copy SSH Keys
-    
 
 # Not working yet/ TODO
 #     Install Snapd: manages and maintains packages (needed for snapd commands)
 #         sudo apt update
 #         sudo apt install snapd
-#     
+#
 #     Install VSCode
-# 
+#
 #     Forward display
 #         need to run and install xLaunch
 #         export DISPLAY="`grep nameserver /etc/resolv.conf | sed 's/nameserver //'`:0"
-# 
+#
 #     looks intersting
 #         sudo apt-get install tasksel
