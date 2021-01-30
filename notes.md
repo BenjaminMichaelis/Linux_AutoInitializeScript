@@ -13,6 +13,7 @@
     - [Potential helpful software for CPTS 360?](#potential-helpful-software-for-cpts-360)
     - [Install xclip to copy SSH Keys](#install-xclip-to-copy-ssh-keys)
     - [Not working yet/ #TODO](#not-working-yet-todo)
+    - [External Resources](#external-resources)
 ## Script Creation Notes
 ### To convert script to unix if it is not running properly
 This is a problem when you write script in windows with line endings, etc. (more info: https://askubuntu.com/questions/979213/cant-apt-get-from-shell-script)<br>
@@ -86,15 +87,23 @@ sudo apt install libssl1.0.0 libkrb5-3 zlib1g libicu[0-9][0-9] gnome-keyring lib
     
 
 ### Not working yet/ #TODO
-    Install Snapd: manages and maintains packages (needed for snapd commands)
-        sudo apt update
-        sudo apt install snapd
-    
-    Install VSCode
+Install Snapd: manages and maintains packages (needed for snapd commands)
+    sudo apt update
+    sudo apt install snapd
 
-    Forward display
-        need to run and install xLaunch
-        export DISPLAY="`grep nameserver /etc/resolv.conf | sed 's/nameserver //'`:0"
+Forward display
+    need to run and install xLaunch
+    export DISPLAY="`grep nameserver /etc/resolv.conf | sed 's/nameserver //'`:0"
 
-    looks intersting
-        sudo apt-get install tasksel
+looks interesting
+    sudo apt-get install tasksel
+
+install z finder script
+`z.sh` base file included in repo
+need to add `. ~/z.sh` to .bashrc script
+
+example .bashrc script included (`./examplebashrc`)
+
+### External Resources
+Google script styleguides (go up one level to see more)
+https://google.github.io/styleguide/shellguide.html
