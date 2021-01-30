@@ -1,0 +1,25 @@
+# C/C++ Compiling and Debugging Support
+
+# References:
+# https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/quickstarts/setup-platform?tabs=dotnet%2Clinux%2Cjre%2Cbrowser&pivots=programming-language-cpp
+
+
+# C/C++ Compiling 
+
+# build-essential (https://packages.ubuntu.com/xenial/build-essential)
+# libssl for secure sockets layer support (SSL)
+# libasound2 for sound support
+# wget (https://www.rosehosting.com/blog/how-to-install-and-use-wget-on-ubuntu/#:~:text=Wget%20is%20a%20free%20software%20package%20that%20can,easy%20task%2C%20just%20carefully%20follow%20our%20tutorial%20below.)
+    sudo apt-get install build-essential libssl1.0.0 libasound2 wget
+# TODO: determine if GCC and G++ (C and C++ compiler accordingly) are contained within build-essential
+    sudo apt-get install gcc
+    sudo apt-get install g++
+# To compile C programs into 32-bit code in 64-bit Ubuntu Linux: (for CPTS-360) (command: cc -m32 'filename')
+    sudo apt-get install gcc-multilib
+
+# Debugger
+
+# command line debugger (http://www.gdbtutorial.com/tutorial/what-gdb)
+    sudo apt-get install gdb
+# Graphical front-end for command-line debuggers (https://www.gnu.org/software/ddd/)
+    sudo apt-get install ddd
