@@ -6,6 +6,6 @@
 ./setupcpp
 ./setupgit
 
-#     Forward display
-#         need to run and install xLaunch
-#         export DISPLAY="`grep nameserver /etc/resolv.conf | sed 's/nameserver //'`:0"
+# Forward display
+#   need to run and install xLaunch
+#   export DISPLAY="`grep nameserver /etc/resolv.conf | sed 's/nameserver //'`:0"

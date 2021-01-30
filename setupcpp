@@ -4,7 +4,7 @@
 # https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/quickstarts/setup-platform?tabs=dotnet%2Clinux%2Cjre%2Cbrowser&pivots=programming-language-cpp
 
 
-# C/C++ Compiling 
+# C/C++ Compiler
 
 # build-essential (https://packages.ubuntu.com/xenial/build-essential)
 # libssl for secure sockets layer support (SSL)

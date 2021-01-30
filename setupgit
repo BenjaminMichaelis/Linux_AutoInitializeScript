@@ -1,5 +1,6 @@
-# Git:
+# Git Install:
     sudo apt-get install git
+# Git Config:
     git config --replace-all --global user.email benjamin@michaelis.net
     git config --replace-all --global user.name "Benjamin Michaelis"
     git config --list

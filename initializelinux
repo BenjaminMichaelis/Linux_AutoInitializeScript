@@ -7,9 +7,9 @@
 ./setupgit
 
 # Not working yet/ TODO
-#     Install Snapd: manages and maintains packages (needed for snapd commands)
-#         sudo apt update
-#         sudo apt install snapd
+#   Install Snapd: manages and maintains packages (needed for snapd commands)
+#       sudo apt update
+#       sudo apt install snapd
 #
-#     looks intersting
-#         sudo apt-get install tasksel
+#   looks intersting
+#       sudo apt-get install tasksel
