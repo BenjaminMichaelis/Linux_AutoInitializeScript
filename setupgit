@@ -1,0 +1,8 @@
+# Git:
+    sudo apt-get install git
+    git config --replace-all --global user.email benjamin@michaelis.net
+    git config --replace-all --global user.name "Benjamin Michaelis"
+    git config --list
+
+# Install xclip to copy SSH Keys
+    sudo apt-get install xclip
