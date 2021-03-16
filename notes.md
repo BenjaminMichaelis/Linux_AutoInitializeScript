@@ -104,6 +104,24 @@ need to add `. ~/z.sh` to .bashrc script
 
 example .bashrc script included (`./examplebashrc`)
 
+https://www.gatsbyjs.com/docs/how-to/local-development/gatsby-on-linux/#windows-subsystem-linux-wsl
+Installing NVM (Node Version Manager)
+Install NodeJS
+`sudo apt install nodejs npm`
+`sudo apt install npm`
+`wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash`
+(might have to exit/restart or try running
+```
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+```
+then 
+`npm install -g gatsby-cli`
+`nvm install`
+`npm install`
+`nvm install node`
+IF (doesnt seem to be the case) npx isn't installed then `npm install -g npx`
+
 ### External Resources
 Google script styleguides (go up one level to see more)
 https://google.github.io/styleguide/shellguide.html
