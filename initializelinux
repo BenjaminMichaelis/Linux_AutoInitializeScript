@@ -2,9 +2,9 @@
     sudo apt-get update
     sudo apt-get dist-upgrade --yes
 
-./vsliveshare_prereqs
-./setupcpp
-./setupgit
+bash vsliveshare_prereqs
+bash setupcpp
+bash setupgit
 
 # Not working yet/ TODO
 #   Install Snapd: manages and maintains packages (needed for snapd commands)
