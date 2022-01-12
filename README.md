@@ -17,4 +17,4 @@ This has been mainly tested on WSL Ubuntu.
   - `./initialize_wsl2` - for basic linux instillation and x-display setup (#WIP)
 
 # What is contained within each script?
-Check out https://github.com/BenjaminMichaelis/Linux_AutoInitializeScript/blob/master/notes.md
+Check out the [Notes](https://github.com/BenjaminMichaelis/Linux_AutoInitializeScript/blob/master/notes.md)
